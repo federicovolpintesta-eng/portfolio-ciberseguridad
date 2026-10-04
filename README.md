@@ -33,6 +33,9 @@ Mi valor diferencial radica en mi capacidad para auditar y asegurar aplicaciones
   * Aplicación del Marco de Ciberseguridad del NIST (Identificar, Proteger, Detectar, Responder y Recuperar) para estructurar la respuesta técnica y operativa.
   * Diseño de estrategias de contención rápida, como el aislamiento de sistemas afectados, neutralización de servicios no críticos y despliegue de reglas de rate limiting e IDS/IPS preventivos.
 
+### 4. [Análisis de Tráfico de Red (tcpdump) y Controles de Seguridad](./Analisis-Trafico-Red)
+* **Objetivo:** Inspección de paquetes a bajo nivel para el diagnóstico de interrupciones de servicio y fallos de conectividad.
+* **Logros:** Análisis de logs de `tcpdump` identificando respuestas de error ICMP y bloqueos en el protocolo UDP (Puerto 53) durante la resolución DNS. Diseño de un plan de mitigación clasificando soluciones en Controles Técnicos (Firewalls/IDS), Administrativos y Físicos (preventivos, detectivos y correctivos).
 ---
 
 ## 🌐 Experiencia Práctica en Desarrollo
