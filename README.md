@@ -36,7 +36,14 @@ Mi valor diferencial radica en mi capacidad para auditar y asegurar aplicaciones
 ### 4. [Análisis de Tráfico de Red (tcpdump) y Controles de Seguridad](./Analisis-Trafico-Red)
 * **Objetivo:** Inspección de paquetes a bajo nivel para el diagnóstico de interrupciones de servicio y fallos de conectividad.
 * **Logros:** Análisis de logs de `tcpdump` identificando respuestas de error ICMP y bloqueos en el protocolo UDP (Puerto 53) durante la resolución DNS. Diseño de un plan de mitigación clasificando soluciones en Controles Técnicos (Firewalls/IDS), Administrativos y Físicos (preventivos, detectivos y correctivos).
----
+
+### 5. [Auditoría de Controles de Acceso y Gestión de Riesgos](./Auditoria-Riesgos-Fuga-Datos)
+* **Objetivo:** Evaluación de riesgos operativos, análisis de incidentes y aplicación del principio de privilegio mínimo (NIST AC-6).
+* **Logros:**
+  * Identificación y remediación de vulnerabilidades de autorización y ciclo de vida de identidades en sistemas.
+  * Elaboración de una matriz de riesgos para priorizar vulnerabilidades frente a amenazas internas y externas.
+  * Diseño de controles compensatorios técnicos y administrativos para prevenir la fuga de datos empresariales.
+  ---
 
 ## 🌐 Experiencia Práctica en Desarrollo
 Aporto una comprensión profunda de la arquitectura web habiendo construido e implementado múltiples aplicaciones en producción (sistemas de gestión, plataformas de reservas y dashboards analíticos con arquitecturas en la nube). Esta experiencia me permite auditar configuraciones de bases de datos relacionales y asegurar el flujo de datos desde el backend hasta el cliente final.
