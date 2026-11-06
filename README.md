@@ -45,15 +45,17 @@ Mi valor diferencial radica en mi capacidad para auditar y asegurar aplicaciones
   * Diseño de controles compensatorios técnicos y administrativos para prevenir la fuga de datos empresariales.
   ---
 
-##  evidencias del Laboratorio (Screenshots)
+---
+
+## Evidencias del Laboratorio (Screenshots)
 
 ### 1. Despliegue de Infraestructura y Contenedores (Docker Desktop)
 Infraestructura aislada con el entorno SIEM Wazuh y el contenedor víctima expuesto para auditorías:
-![Contenedores Docker del Lab](screenshots/docker-lab.jpg)
+![Contenedores Docker del Lab](screenshots/docker-wb.png)
 
 ### 2. Monitoreo y Alertas en el SIEM (Wazuh Dashboard)
 Panel de control centralizado correlacionando eventos de seguridad y métricas del sistema:
-![Dashboard de Wazuh](screenshots/wazuh-dashboard.jpg)
+![Dashboard de Wazuh](screenshots/wazuh-dashboard.png)
 
 
 ## 🌐 Experiencia Práctica en Desarrollo
