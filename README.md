@@ -51,7 +51,7 @@ Mi valor diferencial radica en mi capacidad para auditar y asegurar aplicaciones
 
 ### 1. Despliegue de Infraestructura y Contenedores (Docker Desktop)
 Infraestructura aislada con el entorno SIEM Wazuh y el contenedor víctima expuesto para auditorías:
-![Contenedores Docker del Lab](screenshots/docker-wb.png)
+![Contenedores Docker del Lab](screenshots/docker-lab.png)
 
 ### 2. Monitoreo y Alertas en el SIEM (Wazuh Dashboard)
 Panel de control centralizado correlacionando eventos de seguridad y métricas del sistema:
