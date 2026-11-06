@@ -62,7 +62,7 @@ Ejercicio práctico de pruebas de penetración defensiva y monitoreo de segurida
 ## 📸 Evidencias del Laboratorio (Screenshots)
 
 ### 1. Simulación del Ataque (Hydra) y Análisis de Logs del Sistema
-![Simulación de Fuerza Bruta y Logs](hydra.png)
+![Simulación de Fuerza Bruta y Logs](screenshots/hydra.png)
 
 ### 2. Despliegue de Infraestructura y Contenedores (Docker Desktop)
 ![Contenedores Docker del Lab](screenshots/docker-lab.png)
