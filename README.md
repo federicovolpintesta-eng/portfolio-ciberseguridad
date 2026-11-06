@@ -62,10 +62,10 @@ Ejercicio práctico de pruebas de penetración defensiva y monitoreo de segurida
 ## 📸 Evidencias del Laboratorio (Screenshots)
 
 ### 1. Simulación del Ataque (Hydra) y Análisis de Logs del Sistema
-![Simulación de Fuerza Bruta y Logs](hydra.jpg)
+![Simulación de Fuerza Bruta y Logs](hydra.png)
 
 ### 2. Despliegue de Infraestructura y Contenedores (Docker Desktop)
-![Contenedores Docker del Lab](screenshots/docker-wb.png)
+![Contenedores Docker del Lab](screenshots/docker-lab.png)
 
 ### 3. Monitoreo y Alertas en el SIEM (Wazuh Dashboard)
 ![Dashboard de Wazuh](screenshots/wazuh-dashboard.png)
