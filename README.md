@@ -51,11 +51,11 @@ Mi valor diferencial radica en mi capacidad para auditar y asegurar aplicaciones
 
 ## 🛡️ Laboratorio SOC & Ethical Hacking: Detección de Fuerza Bruta (Hydra + Wazuh SIEM)
 
-Ejercicio práctico de pruebas de penetración defensiva y monitoreo de seguridad en tiempo real utilizando un entorno aislado con contenedores Docker.
+Ejercicio práctico de pruebas de penetración defensiva, Defensa Activa y monitoreo de seguridad en tiempo real utilizando un entorno aislado con contenedores Docker.
 
-- **Topología:** SIEM Wazuh configurado en clúster monolítico + Contenedor Ubuntu víctima expuesto en el puerto SSH (`2222:22`) con capacidades de red habilitadas.
-- **Fase Ofensiva (Red Teaming):** Ejecución de ataques de fuerza bruta mediante THC-Hydra orientados a vulnerar credenciales del servicio de autenticación.
-- **Fase Defensiva (Blue Team):** Correlación de eventos de autenticación fallida (`unix_chkpwd`), registro de alertas críticas en el SIEM y mapeo bajo los estándares de cumplimiento y frameworks de intrusión.
+- **Topología:** SIEM Wazuh configurado en entorno local + Contenedor Ubuntu víctima expuesto en el puerto local SSH (`2222:22`) con capacidades de red habilitadas.
+- **Fase Ofensiva (Red Teaming / Log Injection):** Ejecución de ataques de fuerza bruta mediante THC-Hydra orientados a vulnerar credenciales del servicio de autenticación. Aplicación de técnicas avanzadas de *Log Injection* utilizando `logger` y `syslog` para sortear las limitaciones de rsyslog en contenedores efímeros.
+- **Fase Defensiva (Blue Team / Triaje L1):** Correlación de eventos de autenticación fallida, registro de alertas críticas en el SIEM y triaje de incidentes. Identificación de IoCs (IP de origen, puertos, usuarios) y mapeo automático bajo el framework **MITRE ATT&CK (T1110 - Brute Force / Credential Access / Lateral Movement)**.
 
 ---
 
@@ -70,16 +70,11 @@ Ejercicio práctico de pruebas de penetración defensiva y monitoreo de segurida
 ### 3. Monitoreo y Alertas en el SIEM (Wazuh Dashboard)
 ![Dashboard de Wazuh](screenshots/wazuh-dashboard.png)
 
+### 4. Triaje de Incidentes: Identificación de IoCs y MITRE ATT&CK
+![Identificación de IoCs](screenshots/identificacion-iocs.png)
+
 ---
 
 ## 🌐 Experiencia Práctica en Desarrollo
 
 Aporto una comprensión profunda de la arquitectura web habiendo construido e implementado múltiples aplicaciones en producción (sistemas de gestión, plataformas de reservas y dashboards analíticos con arquitecturas en la nube). Esta experiencia me permite auditar configuraciones de bases de datos relacionales y asegurar el flujo de datos desde el backend hasta el cliente final.
-
----
-
-## 📬 Contacto
-
-- **LinkedIn:** [linkedin.com/in/federico-volpintesta](https://linkedin.com/in/federico-volpintesta)
-- **GitHub:** [github.com/federicovolpintesta-eng](https://github.com/federicovolpintesta-eng)
-- **Email:** federicovolpintesta@gmail.com
